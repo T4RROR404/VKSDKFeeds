@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0B57F428CC8D3200C718B9 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B57F328CC8D3200C718B9 /* FeedResponse.swift */; };
+		3E0B57F628CC941500C718B9 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B57F528CC941500C718B9 /* NetworkDataFetcher.swift */; };
 		3E1FE44B28CA5A8E00CB6A7A /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FE44A28CA5A8E00CB6A7A /* AuthViewController.storyboard */; };
 		3E1FE44D28CA692000CB6A7A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FE44C28CA692000CB6A7A /* FeedViewController.swift */; };
 		3E1FE44F28CA695D00CB6A7A /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FE44E28CA695D00CB6A7A /* FeedViewController.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E0B57F328CC8D3200C718B9 /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
+		3E0B57F528CC941500C718B9 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		3E1FE44A28CA5A8E00CB6A7A /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		3E1FE44C28CA692000CB6A7A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3E1FE44E28CA695D00CB6A7A /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0B57F228CC8D1200C718B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E0B57F328CC8D3200C718B9 /* FeedResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3E1FE45028CA6A2400CB6A7A /* FeedViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +138,10 @@
 		3E77574428C8A88A0075BCC9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3E0B57F228CC8D1200C718B9 /* Models */,
 				3E77574228C8A8700075BCC9 /* AuthService.swift */,
 				3E1FE45228CA70BF00CB6A7A /* NetworkService.swift */,
+				3E0B57F528CC941500C718B9 /* NetworkDataFetcher.swift */,
 				3E1FE45428CA717300CB6A7A /* API.swift */,
 			);
 			path = Services;
@@ -229,11 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0B57F428CC8D3200C718B9 /* FeedResponse.swift in Sources */,
 				3E77572D28C885FE0075BCC9 /* AuthViewController.swift in Sources */,
 				3E77572928C885FE0075BCC9 /* AppDelegate.swift in Sources */,
 				3E1FE44D28CA692000CB6A7A /* FeedViewController.swift in Sources */,
 				3E77572B28C885FE0075BCC9 /* SceneDelegate.swift in Sources */,
 				3E1FE45328CA70BF00CB6A7A /* NetworkService.swift in Sources */,
+				3E0B57F628CC941500C718B9 /* NetworkDataFetcher.swift in Sources */,
 				3E77574328C8A8700075BCC9 /* AuthService.swift in Sources */,
 				3E1FE45528CA717300CB6A7A /* API.swift in Sources */,
 			);
